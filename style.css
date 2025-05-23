@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.left-container {
+  position: fixed;
+  width:45vw;
+  height:500vh;
+  background-color:#8EA69B;
+}
+
+.photo-contact {
+  position: absolute;
+  top:50px;
+  text-align:center;
+}
+
+.photo {
+  width:50%;
+  border-radius: 50%;
+}
+
+.button-crs {
+  width: 50%;
+  background-color: white;
+  border-radius:12px;
+  margin-bottom:12px;
+  font-size:1.0rem;
+  font-weight:bold;
+  padding:5px;
+}
+
+.button-crs:hover {
+  color: white;
+  background-color: black;
+  transition: 0.5s;
+}
+
+.right-container {
+  position:absolute;
+  left:45vw;
+}
+
+.top-bar {
+  padding-top:30px;
+  padding-left:80px;
+}
+
+.title {
+  font-style:Italic;
+  font-size:1.3rem;
+}
+
+.list-menu {
+  float:right;
+  padding-right:50px;
+}
+
+.menu {
+  font-size: 1.1rem;
+  padding:0 5px;
+}
+
+a {
+  text-decoration:none;
+  color:black;
+}
+
+#profile {
+  padding-top:50px;
+  padding-left:80px;
+}
+
+#about {
+   padding-top:50px;
+  padding-left:80px;
+  padding-right:100px;
+}
+
+#experience {
+  padding-top:50px;
+  padding-left:80px;
+}
+
+.l-2 {
+  font-size: 1.2rem;
+  font-weight:500;
+}
+
+#achievements {
+  padding-top:50px;
+  padding-left:80px;
+}
+
+.c-11 {
+  font-size:1.0rem;
+  padding-left:25px;
+  color:green;
+}
+
+.c-12 {
+  font-size:1.0rem;
+  padding-left:25px;
+  color:green;
+}
+
+.c-13 {
+  font-size:1.0rem;
+  padding-left:25px;
+  color:green;
+}
+
+.c-14 {
+  font-size:1.0rem;
+  padding-left:25px;
+  color:green;
+}
+
+#contact {
+  padding-top:50px;
+  padding-left:80px;
+}
+
+#footer {
+  padding-top:500px;
+  text-align: center;
+}
+
+p, li {
+  line-height: 30px;
+}
